@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Roboto/roboto-v27-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    /* IE6-IE8 */ url("./assets/fonts/Roboto/roboto-v27-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("./assets/fonts/Roboto/roboto-v27-latin-regular.woff") format("woff"),
+    /* Modern Browsers */
+      url("./assets/fonts/Roboto/roboto-v27-latin-regular.ttf")
+      format("truetype"); /* Safari, Android, iOS */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/ProximaNova/Proxima-Nova-Alt-Rg-Regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    /* IE6-IE8 */
+      url("./assets//fonts/ProximaNova/Proxima-Nova-Alt-Rg-Regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("./assets//fonts/ProximaNova/Proxima-Nova-Alt-Rg-Regular.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("./assets/fonts/ProximaNova/Proxima-Nova-Alt-Rg-Regular.ttf")
+      format("truetype"); /* Safari, Android, iOS */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto";
 }
