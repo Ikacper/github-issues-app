@@ -1,0 +1,11 @@
+.star {
+  fill: #fff;
+}
+
+.star:hover {
+  cursor: pointer;
+}
+
+.activeStar {
+  fill: #21233d;
+}

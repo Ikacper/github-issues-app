@@ -7,8 +7,8 @@ export default function IssuesWindow() {
   return (
     <div className={styles.issuesWindowWrapper}>
       {data.map((day) => (
-        <ul>
-          <span>{day.date}</span>
+        <ul key={day.id}>
+          <div className={styles.issueDate}>{day.date}</div>
           {day.issues.map((issue) => (
             <Issue key={issue.id} issue={issue.issue} />
           ))}
