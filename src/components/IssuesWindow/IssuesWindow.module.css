@@ -1,0 +1,9 @@
+.issuesWindowWrapper {
+  display: flex;
+  background-color: #f5f5f5;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0.4rem;
+  width: 31.25rem;
+  height: 31.25rem;
+}
