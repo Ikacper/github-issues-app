@@ -1,0 +1,29 @@
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.0625rem 0.9375rem;
+}
+
+.filter:hover {
+  background-color: #282a48;
+}
+
+.iconWithName {
+  display: flex;
+}
+
+.filterIcon {
+  fill: #fff;
+}
+
+.filterName {
+  color: #fff;
+  padding-left: 0.5625rem;
+  font-size: 14px;
+}
+
+.filterAmountOfIssues {
+  font-family: "Proxima Nova";
+  color: #8a8995;
+  font-size: 14px;
+}
