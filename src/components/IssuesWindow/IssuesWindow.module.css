@@ -1,8 +1,10 @@
+@import "../../variables.css";
+
 .wrapper {
   display: flex;
   width: 500px;
   height: 500px;
-  background-color: #f5f5f5;
+  background-color: var(--light-gray-2);
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -17,7 +19,7 @@
 .issueDate {
   padding: 0.6875rem 0 0.5rem 0.875rem;
   font-size: 12px;
-  color: #8a8995;
+  color: var(--grayish-blue);
 }
 
 @media (max-width: 669px) {

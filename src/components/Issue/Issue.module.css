@@ -1,6 +1,8 @@
+@import "../../variables.css";
+
 .issue {
-  background-color: #fff;
-  border: 1px solid #e0e0e0;
+  background-color: var(--white);
+  border: 1px solid var(--light-gray);
   border-radius: 5px;
   margin: 0.25rem 0.875rem;
   list-style: none;
@@ -11,5 +13,5 @@
 }
 
 .issueName {
-  color: #080606;
+  color: var(--ebony);
 }

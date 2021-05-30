@@ -1,6 +1,8 @@
+@import "../../variables.css";
+
 .systemButtonsWrapper {
   display: flex;
-  background-color: #100f22;
+  background-color: var(--very-dark-blue);
   border-top-left-radius: 10px;
   padding: 0 0.9375rem;
 }
@@ -18,13 +20,13 @@
 }
 
 .closeBtn {
-  background-color: #ff594f;
+  background-color: var(--pastel-red);
 }
 
 .minimizeBtn {
-  background-color: #ffbb1b;
+  background-color: var(--pastel-yellow);
 }
 
 .maximizeBtn {
-  background-color: #00cd45;
+  background-color: var(--pastel-green);
 }

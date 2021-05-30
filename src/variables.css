@@ -1,0 +1,15 @@
+:root {
+  --white: rgb(255, 255, 255);
+  --light-gray: rgb(224, 224, 224);
+  --light-gray-2: rgb(245, 245, 245);
+  --grayish-blue: rgb(138, 137, 149);
+  --very-dark-blue: rgb(16, 15, 34);
+  --very-dark-transparent-blue: rgba(16, 15, 34, 0.85);
+  --pastel-red: rgb(255, 89, 79);
+  --pastel-yellow: rgb(255, 187, 27);
+  --pastel-green: rgb(0, 205, 69);
+  --ebony: rgb(8, 6, 6);
+  --transparent-black: rgba(0, 0, 0, 0.5);
+  --dark-blue: rgb(40, 42, 72);
+  --deep-dark-blue: rgb(33, 35, 61);
+}

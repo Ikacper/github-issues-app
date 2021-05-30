@@ -1,6 +1,8 @@
+@import "../../variables.css";
+
 .sidebarWrapper {
   width: 9.375rem;
-  background-color: rgba(16, 15, 34, 0.85);
+  background-color: var(--very-dark-transparent-blue);
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   backdrop-filter: blur(5px);

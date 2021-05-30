@@ -1,3 +1,5 @@
+@import "../../variables.css";
+
 .filter {
   display: flex;
   justify-content: space-between;
@@ -5,7 +7,7 @@
 }
 
 .filter:hover {
-  background-color: #282a48;
+  background-color: var(--dark-blue);
 }
 
 .iconWithName {
@@ -13,17 +15,17 @@
 }
 
 .filterIcon {
-  fill: #fff;
+  fill: var(--white);
 }
 
 .filterName {
-  color: #fff;
+  color: var(--white);
   padding-left: 0.5625rem;
   font-size: 14px;
 }
 
 .filterAmountOfIssues {
   font-family: "Proxima Nova";
-  color: #8a8995;
+  color: var(--grayish-blue);
   font-size: 14px;
 }

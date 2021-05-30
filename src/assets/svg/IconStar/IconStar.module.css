@@ -1,5 +1,7 @@
+@import "../../../variables.css";
+
 .star {
-  fill: #fff;
+  fill: var(--white);
 }
 
 .star:hover {
@@ -7,5 +9,5 @@
 }
 
 .activeStar {
-  fill: #21233d;
+  fill: var(--deep-dark-blue);
 }
