@@ -4,11 +4,11 @@ import filters from '../../data/filters';
 
 export default function Filters() {
   return (
-    <ul>
+    <>
       {filters.map(({
         id, icon, name, amountOfIssues,
       }) => (
-        <li key={id} className={styles.filter}>
+        <button type="button" key={id} className={styles.filter}>
           <div className={styles.iconWithName}>
             <div className={styles.filterIcon}>
               {icon}
@@ -20,8 +20,8 @@ export default function Filters() {
           <span className={styles.filterAmountOfIssues}>
             {amountOfIssues}
           </span>
-        </li>
+        </button>
       ))}
-    </ul>
+    </>
   );
 }
