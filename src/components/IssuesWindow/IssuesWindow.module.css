@@ -19,3 +19,30 @@
   font-size: 12px;
   color: #8a8995;
 }
+
+@media (max-width: 669px) {
+  .wrapper {
+    width: 400px;
+  }
+  .issuesWindowWrapper {
+    width: 395px;
+  }
+}
+
+@media (max-width: 570px) {
+  .wrapper {
+    width: 300px;
+  }
+  .issuesWindowWrapper {
+    width: 295px;
+  }
+}
+
+@media (max-width: 460px) {
+  .wrapper {
+    width: 220px;
+  }
+  .issuesWindowWrapper {
+    width: 215px;
+  }
+}
